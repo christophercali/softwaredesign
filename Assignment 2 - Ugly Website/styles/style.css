@@ -48,6 +48,7 @@ need both the ul to have a styling AND the list items to have the styling as see
 h2,h3{
   color:rgb(0, 22, 35);
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: white;
 }
 ol{
   color:azure;
