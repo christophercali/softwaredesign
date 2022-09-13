@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: black;
+}
+
+#fullpage{
+  background-color: white;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+
+
+#cards{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+  padding: 25px;
+  margin: 10px; 
+  /* margin does not change anything and not sure why */
+  align-items: space-around;
+}
+
+.card1{
+  border:3px solid gray;
+  padding: 20px;
+  width: 180px;
+  height: 200px;
+  border-radius: 10px;
+}
+.card2{
+  border:1px solid gray;
+  padding: 20px;
+  background-color:black;
+  color:azure;
+  width: 180px;
+  height: 200px;
+  border-radius: 10px;
+}
+.card3{
+  border:1px solid gray;
+  padding: 20px;
+  width: 180px;
+  height: 200px;
+  border-radius: 10px;
+}
+#c3{
+  background-color: pink;
+  box-shadow: 1px;
+}
+.card4{
+  border:1px solid blue;
+  padding: 20px;
+  width: 180px;
+  height: 200px;
+  border-radius: 10px;
+}
+#c4{
+  color: hotpink;
+}
