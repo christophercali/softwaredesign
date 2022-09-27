@@ -1,0 +1,112 @@
+body {
+  font-family: 'News Cycle', sans-serif;
+}
+
+#page{
+  background-color:black;
+}
+#maincontainer{
+  overflow-x: scroll;
+  background-image: url(https://irei.com/wp-content/uploads/2017/04/Donald-trump.jpg);
+  padding:3%;
+  margin-left: 30px;
+}
+
+h1{
+  color: rgb(255, 0, 0);
+}
+
+h2{
+  color: rgb(255, 0, 0);
+}
+
+.informational {
+  height: 200px;
+  width: 200px;
+  border: 1px solid rgb(255, 255, 255,0.5);
+  background: rgba(62, 179, 49, 0.5);
+  width: 100%;
+  height: 100%;
+}
+
+.tooltip {
+  height: 200px;
+  width: 200px;
+  border: 1px solid rgb(255, 255, 255,0.5);
+  background: rgb(128, 128, 128,0.5);
+  width: 100%;
+  height: 100%;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 105%;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.finish {
+  height: 200px;
+  width: 200px;
+  border: 1px solid rgb(255, 255, 255,0.5);
+  background: rgb(128, 128, 128,0.5);
+  width: 100%;
+  height: 100%;
+}
+
+.further{
+  height: 200px;
+  width: 200px;
+  border: 1px solid rgb(255, 255, 255,0.5);
+  background: rgb(111, 209, 255,0.5);
+  width: 100%;
+  height: 100%;
+}
+
+.environment{
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+  background: rgb(255, 225, 103);
+  width: 100%;
+  height: 100%;
+}
+
+#explore {
+  text-align:end;
+  margin-right: 100px;
+}
+
+footer{
+  color: white;
+  margin-left: 35px
+}
+
+a:hover{
+  color:rgb(15, 191, 15)
+}
+
+a:visited{
+  color: rgb(244, 53, 244);
+}
+
+a:link{
+  color: blue;
+}
