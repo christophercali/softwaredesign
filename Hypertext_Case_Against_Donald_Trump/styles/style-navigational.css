@@ -6,7 +6,6 @@ body {
   background-color:black;
 }
 #maincontainer{
-  overflow-x: auto;
   background-image: url(https://irei.com/wp-content/uploads/2017/04/Donald-trump.jpg);
   padding:3%;
   margin-left: 30px;
@@ -14,6 +13,8 @@ body {
 }
 .cardcontainer{
   display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
   justify-content: space-evenly;
 }
 
@@ -24,18 +25,15 @@ h1{
   text-decoration-color:rgb(255, 0, 0);
 }
 
-h2{
-  color: rgb(255, 0, 0);
-}
-
 .informational {
-  height: 100px;
-  width: 400px;
   border: 1px solid rgb(255, 255, 255,0.5);
-  background: rgba(62, 179, 49, 0.5);
-  margin: 5px;
+  background: black;
+  color:white;
+  margin: auto;
   border-radius:1mm;
-  padding: 6px;
+  padding: 10px;
+  box-shadow: #fff;
+  text-align: center;
 }
 
 /* .tooltip {
@@ -53,63 +51,73 @@ h2{
   display: inline-block;
   border-bottom: 1px dotted black;
   border-radius:1mm;
-  height: 200px;
+  height: 100px;
   width: 200px;
   border: 1px solid rgb(255, 255, 255,0.5);
-  background: rgb(128, 128, 128,0.5);
+  background: rgb(0, 0, 0,0.6);
   margin: 5px;
   padding: 6px;
+  text-align: center;
+  font-size:large;
 
 }
 
 .tooltiptext {
   visibility: hidden;
-  width: 120px;
   background-color: black;
   color: #fff;
   text-align: center;
   border-radius: 6px;
-  padding: 10px 0;
+  padding: 10px;
   margin: 3px;
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
-  top: -5px;
-  left: 105%;
+  width: 200px;
+  bottom: 100%;
+  left: 30%;
+  margin-left: -60px;
 }
+
+/* setting the tooltips hover status */
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
 
+/* Making the tooltip's arrow below */
 .tooltip .tooltiptext::after {
   content: " ";
   position: absolute;
-  top: 15%;
-  right: 100%; /* To the left of the tooltip */
-  margin-top: -5px;
+  top: 100%; /* At the bottom of the tooltip */
+  left: 50%;
+  margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: transparent black transparent transparent;
+  border-color: black transparent transparent transparent;
 }
 
 .further{
   height: 200px;
-  width: 200px;
+  width: 100px;
   border: 1px solid rgb(255, 255, 255,0.5);
   background: rgb(111, 209, 255,0.5);
   margin: 5px;
   border-radius:1mm;
   padding: 6px;
+  text-align: center;
 }
 
-.environment{
-  height: 200px;
+.svgbox{
+  height: 100px;
   width: 200px;
   border: 1px solid black;
-  background: rgb(255, 225, 103);
+  background: rgb(255, 225, 103,0.8);
   margin: 5px;
   border-radius:1mm;
   padding: 6px;
+  text-align: center;
+  font-size:large;
+  vertical-align:middle;
 }
 
 #explore {
@@ -123,13 +131,13 @@ footer{
 }
 
 a:hover{
-  color:rgb(15, 191, 15)
+  color:rgb(163, 255, 163)
 }
 
 a:visited{
-  color: rgb(244, 53, 244);
+  color: rgb(252, 199, 199);
 }
 
 a:link{
-  color: blue;
+  color: light blue;
 }
