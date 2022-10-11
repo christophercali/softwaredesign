@@ -111,7 +111,7 @@ h1{
   height: 100px;
   width: 200px;
   border: 1px solid black;
-  background: rgb(255, 225, 103,0.8);
+  background: rgba(171, 150, 67, 0.8);
   margin: 5px;
   border-radius:1mm;
   padding: 6px;
@@ -135,7 +135,7 @@ a:hover{
 }
 
 a:visited{
-  color: rgb(252, 199, 199);
+  color: rgb(255, 199, 199);
 }
 
 a:link{
