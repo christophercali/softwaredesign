@@ -7,14 +7,72 @@ body {
   background-color:black;
 }
 #maincontainer{
-  background-color:green;
+  background-color:white;
   padding:3%;
   margin-left: 30px;
   margin-right: 30px;
 }
 
+#svgcontainer{
+  display: flex;
+  flex-direction: row;
+}
+
+#scrollingcontainer{
+  overflow-x: auto;
+}
+
+/* NESTING COPY here */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-radius:1mm;
+  margin: 20px;
+  padding: 6px;
+  text-align: center;
+  font-size:large;
+
+}
+
+.tooltiptext {
+  visibility: hidden;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px;
+  margin: 3px;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  width: 200px;
+  bottom: 100%;
+  left: 46%;
+  margin-left: -60px;
+}
+
+/* setting the tooltips hover status */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+/* Making the tooltip's arrow below */
+.tooltip .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  top: 100%; /* At the bottom of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgb(0, 0, 0) transparent transparent transparent;
+}
+
+/* COPY above */
+
+
 h1{
-  color: white;
+  color: black;
   font: Belgrano;
   padding:5px;
   margin-left: 30px;
@@ -22,7 +80,7 @@ h1{
 }
 
 p{
-  color: white;
+  color: rgb(74, 74, 74);
   padding: 5px;
   margin-left: 30px;
   margin-right: 30px;
