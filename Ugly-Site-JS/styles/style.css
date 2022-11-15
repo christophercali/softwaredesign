@@ -1,0 +1,66 @@
+body {
+}
+/* Making all large headins styled with the Class bigtitle */
+#bigtitle{
+  color:black;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: white;
+  font-size: 40px;
+}
+
+h4{  
+  color:black;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: white;}
+  
+.header{
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 20px;
+}
+
+/* doing features for the table */
+.maint{
+background-color:rgba(233, 242, 250, 0.368);
+}
+
+/* Doing styling for the table stuf */
+table, tr, td{
+  border: 1px solid;
+}
+
+tr, td{
+  border: 1px dotted;
+}
+
+/* Making the navigation bar at the top */
+.navbar{
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+/*
+need both the ul to have a styling AND the list items to have the styling as seen above and below. 
+} */
+.navli{
+  display: inline;
+  padding: 8px;
+  text-align: center;
+  background-color:rgb(216, 112, 147);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* all 2nd headings will be styled like this */
+h2,h3{
+  color:rgb(0, 22, 35);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: white;
+}
+ol{
+  color:azure;
+  width: 300px;
+  border: 15px solid rgb(216, 112, 147);
+  padding: 50px;
+  margin: 20px;
+  background-color: rgb(1, 162, 255,.7);
+}
