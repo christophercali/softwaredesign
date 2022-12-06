@@ -1,0 +1,14 @@
+h1{
+    color: rgb(0, 0, 0);
+  font-family: 'Bad Script';
+  font-size: 40px;
+}
+
+.paragraphText{
+  font-family: 'PT Serif';
+}
+
+#main{
+  background-image: url('assets/img/AI-cefalu.png');
+}
+
