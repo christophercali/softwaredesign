@@ -3,3 +3,39 @@ h1{
   font-family: 'Bad Script';
   font-size: 40px;
 }
+
+#sauce:hover{
+  cursor: pointer;
+}
+
+#flag:hover{
+  cursor: pointer;
+}
+
+#sun:hover{
+  cursor: pointer;
+}
+
+#scissor:hover{
+  cursor: pointer;
+}
+
+#yarn:hover{
+  cursor: pointer;
+}
+
+#shovel:hover{
+  cursor: pointer;
+}
+
+#plane:hover{
+  cursor: pointer;
+}
+
+#tree:hover{
+  cursor: pointer;
+}
+
+/**************************
+  Basic Modal Styles
+**************************/
