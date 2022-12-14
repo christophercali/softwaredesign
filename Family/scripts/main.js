@@ -1,7 +1,7 @@
 //open this in devtools and see the result
 console.log('this working!!')
 
-
+window.scroll(520, 1536);
 
 
 

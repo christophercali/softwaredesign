@@ -14,9 +14,9 @@ body{
 }
 
 .svg{
-  width: inherit;
+  /* width: inherit;
   height: inherit;
-  margin: 1px;
+  margin: 1px; */
 }
 
 .titlebottom{
