@@ -2,6 +2,24 @@ h1{
     color: rgb(0, 0, 0);
   font-family: 'Bad Script';
   font-size: 40px;
+  margin: 5px;
+}
+
+body{
+  width: 100%;
+  height: 100%;
+  margin:0;
+  padding:0;
+}
+
+.svg{
+  width: inherit;
+  height: inherit;
+  margin: 1px;
+}
+
+.titlebottom{
+  margin-top: 15px;
 }
 
 #sauce:hover{
@@ -36,6 +54,20 @@ h1{
   cursor: pointer;
 }
 
+h4{
+  font-family: 'Bad Script';
+}
+
+.modal-body{
+  font-family: "PT Serif";
+}
+
+.image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%
+}
 /**************************
   Basic Modal Styles
 **************************/
