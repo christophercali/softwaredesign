@@ -36,11 +36,11 @@ body{
 }
 
 #flag:hover{
-  cursor: pointer;
+  cursor: url(‘assets/img/cursors/flagcursor.png’);
 }
 
 #sun:hover{
-  cursor: pointer;
+  cursor: url(‘assets/img/cursors/flagcursor.png’);
 }
 
 #scissor:hover{
