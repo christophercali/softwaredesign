@@ -32,35 +32,35 @@ body{
 }
 
 #sauce:hover{
-  cursor: pointer;
+  cursor: url(‘saucecursor.png’), pointer;
 }
 
 #flag:hover{
-  cursor: url(‘assets/img/cursors/flagcursor.png’);
+  cursor: url(‘flagcursor.png’), pointer;
 }
 
 #sun:hover{
-  cursor: url(‘assets/img/cursors/flagcursor.png’);
+  cursor: url(‘cursors/suncursor.png’), pointer;
 }
 
 #scissor:hover{
-  cursor: pointer;
+  cursor: url(‘cursors/scissorscursor.png’), pointer;
 }
 
 #yarn:hover{
-  cursor: pointer;
+  cursor: url(‘cursors/yarncursor.png’), pointer;
 }
 
 #shovel:hover{
-  cursor: pointer;
+  cursor: url(‘cursors/shovelcursor.png’), pointer;
 }
 
 #plane:hover{
-  cursor: pointer;
+  cursor: url(‘cursors/planecursor.png’), pointer;
 }
 
 #tree:hover{
-  cursor: pointer;
+  cursor: url(‘cursors/treecursor.png’), pointer;
 }
 
 h4{

@@ -28,6 +28,62 @@ span.onclick = function() {
   modal.style.display = "none";
 }
 
+// p5sketch - will just embed anyway
+// let sketch = function(p) {
+//     p.setup = function(){
+//       p.createCanvas(windowWidth/2, windowHeight/2);
+//       background(255);
+//     }
+
+//     p.draw = function(){
+//         background(255);
+//         // triangles
+//       for(m=0; m < windowHeight; m++){
+//         p.drawTriangle (m, m)
+//         p.stroke(255, 255, 255);
+//         var randTri = color(random(180,255),0,0);
+//         p.fill(randTri);}
+      
+//       // creating random lines from the center
+//       for(k=0; k < windowHeight; k++){
+//         p.funLinesCentered(k);
+//         var lineColor = color(0,random(100,180),0);
+//         p.stroke(lineColor);
+//         p.strokeWeight(random(1,15))
+//       }
+      
+//       //   drawing small circles
+//       for(j=0; j < 500; j++){
+//         p.drawCircle(5);
+//         p.fill(255, 255, 0);
+//         p.strokeWeight(5);
+//       }
+          
+      
+//       let circlesQty = 80;
+//       for(i=0; i < circlesQty; i++){
+//         p.drawCircle(50);
+//         var currColor = color(random(245,255),random(245,255),random(245,255));
+//         p.fill(currColor);
+//       }
+      
+//     }
+    
+//     function drawCircle (maxSize){
+//       p.circle(random(0, windowWidth),random(0,windowHeight), random (0,maxSize));
+//     }
+    
+//     function funLinesCentered (yLoc){
+//       p.line(windowWidth/2, windowHeight/2, random(0,windowWidth), yLoc);
+//     }
+    
+//     function drawTriangle (t, th) {
+//       p.triangle (0, 0, t, th,random(0,windowWidth),random(0,windowHeight));
+//     }    
+//     };
+//   new p5(sketch, window.document.getElementById('containerp5'));
+
+
 
 // Setting interactivity with the svg elements - want to adjust opacity
 
