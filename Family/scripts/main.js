@@ -1,16 +1,71 @@
 //open this in devtools and see the result
 console.log('this working!!')
 
-window.scroll(520, 1536);
+// No longer need the auto scroll since I changed the sizing to match the window
+// Decision was made because modals did not function great on the mobile platform
+// window.scroll(520, 1536);
 
 
 
+// Image modal only - other modals are done with Bootstrap
+var modal = document.getElementById("myModalArticle");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImgArticle");
+var modalImg = document.getElementById("articleImage");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
 
 
+// Setting interactivity with the svg elements - want to adjust opacity
 
+$(document).ready(function(){
 
+    $("#plane").click(function(){
+      $("#plane").addClass("opaque");
+    });
 
+    $("#flag").click(function(){
+        $("#flag").addClass("opaque");
+      });
+      
+      $("#tree").click(function(){
+        $("#tree").addClass("opaque");
+      });
 
+      $("#scissor").click(function(){
+        $("#scissor").addClass("opaque");
+      });
+
+      $("#sun").click(function(){
+        $("#sun").addClass("opaque");
+      });
+
+      $("#yarn").click(function(){
+        $("#yarn").addClass("opaque");
+      });
+
+      $("#shovel").click(function(){
+        $("#shovel").addClass("opaque");
+      });
+
+      $("#sauce").click(function(){
+        $("#sauce").addClass("opaque");
+      }); 
+
+  });
 
 
 
